@@ -1,15 +1,14 @@
 [project]
-name = "urlscanner"
+name = "url_security_scanner"
 version = "0.3.1"
 description = "Security Header Audit — single-route API + CLI"
 readme = "README.md"
-license = { file = "LICENSE" }
+license = "MIT"
 requires-python = ">=3.10"
 authors = [{ name = "Austin Mangum", email = "austin.mangum15@gmail.com" }]
 keywords = ["security", "headers", "fastapi", "cli", "http", "audit"]
 classifiers = [
   "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
   "Topic :: Security",
   "Framework :: FastAPI"
@@ -36,8 +35,8 @@ urlscannerctl = "urlscanner.cli:app"
 urlscannerapi = "urlscanner.api:main"
 
 [project.urls]
-Homepage = "https://github.com/austinmangum/urlscanner"
-Issues = "https://github.com/austinmangum/urlscanner/issues"
+Homepage = "https://github.com/austin.mangum15/urlscanner"
+Issues = "https://github.com/austin.mangum15/urlscanner/issues"
 
 [build-system]
 requires = ["setuptools>=68", "wheel", "build"]

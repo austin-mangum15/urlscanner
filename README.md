@@ -11,7 +11,7 @@ This endpoint shows a list of the 10 most recent scans
 
 ## Install
 ```bash
-pip install "threatboard[api,cli]"
-threatapi
-threatctl post https://example.com
-threatctl get
+pip install "url_security_scanner[api,cli]"
+urlscannerapi
+urlscannerctl post https://example.com
+urlscannerctl get
