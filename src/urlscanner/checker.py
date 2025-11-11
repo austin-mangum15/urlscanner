@@ -16,7 +16,7 @@ HEADERS_TO_CHECK = [
 
 
 TIMEOUT = httpx.Timeout(10.0, connect=5.0)
-UA = {"User-Agent": "ThreatBoard-Header-Audit/0.3"}
+UA = {"User-Agent": "urlscanner-Header-Audit/0.3"}
 
 
 PRIVATE_NETS = [
