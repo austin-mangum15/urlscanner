@@ -19,12 +19,12 @@ dependencies = []
 
 [project.optional-dependencies]
 cli = [
-  "typer>=0.12",
+  "typer>=0.20",
   "requests>=2.32",
   "pydantic>=2.12",
 ]
 api = [
-  "fastapi>=0.116",
+  "fastapi>=0.121",
   "uvicorn[standard]>=0.38",
   "httpx>=0.28.1",
   "pydantic>=2.12",
